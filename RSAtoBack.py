@@ -98,7 +98,6 @@ def ShRSA(mess):
     keys.CreateKeys(2024, 4048)
 
     s = user.Encryption(mess, keys.openedExponent, keys.N)
-
     print(s)
     print("\n")
 
